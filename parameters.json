@@ -1,0 +1,25 @@
+{
+    "create_dataset": {
+        "source_folder" : "",
+        "target_folder" : "",
+        "samples_per_image" : 64
+    },
+    "model":{
+        "name": "SRCNN",
+        "sample_size" : 64,
+        "down_factor" : 2,
+        "n_layers": 20
+    },
+    "training":{
+        "save_folder": "",
+        "train_folder" : "",
+        "val_folder" : "",
+        "n_epochs" : 20,
+        "batch_size": 20
+    },
+    "upscale":{
+        "filename": 0,
+        "target_folder": "",
+        "model_pth_path": ""
+    }
+}
